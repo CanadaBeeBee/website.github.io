@@ -1,0 +1,197 @@
+* ::before ::after {
+
+    box-sizing: border-box;
+    margin: 0,;
+    padding : 0;
+     
+}
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.accueil {
+
+    width : 100%;
+    height: 100%;
+  background : #333 url(ressources/téléchargement.jpg) contain / cover no-repeat;
+}
+
+
+h1 {
+
+    font-size: 50px;
+    padding-top: 250px;
+    padding-left: 240px;
+}
+
+
+.media-container  {
+
+    display: flex;
+    padding-left: 240px;
+    margin: 20px 0 40px 0;
+}
+
+.media-btn {
+
+    width : 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.icones{
+    width: 27px;
+}
+
+
+.btn {
+
+    margin-left: 240px;
+    background : transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 2px solid #333;
+    color: #333;
+    transition: all 0.25 ease-in-out;
+}
+
+
+.btn:hover {
+
+    background: #333;
+    color : #f1f1f1;
+}
+
+
+.span10{
+    color: blue;
+
+}
+
+
+h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 10 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 10%; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+     }
+
+
+     .responsive {
+
+        margin-left: 240px;
+        background : transparent;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 3px;
+        border: 2px solid #333;
+        color: #333;
+        transition: all 0.25 ease-in-out;
+    }
+
+
+
+    .responsive:hover {
+
+        background: #333;
+        color : #f1f1f1;
+    }
+
+
+
+    footer{
+
+        background-color: black
+
+        ;
+    }
+
+
+    div.foot {
+        color: white;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+
+    div.footer {
+color: white;
+       
+    }
+
+
+    header {
+
+        background-color: black;
+    }
+
+
+   header {
+
+    background-color: black;
+   }
+
+
+   div.bienvenue{
+
+  height: 12vh;
+  width:12vh;
+ 
+   }
+
+
+   h6.Bvn {
+
+    text-align: inline;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top: 4.5vh;
+    margin-left: 65vh;
+    width: 90vh;
+
+
+   }
+
+   div.bvntext {
+
+
+    text-align: center;
+   }
+
+
+  
+@media screen and (max-width:950px) {
+    .bienvenue>.bvntext {
+        width: 27px;
+    }
+    .Bvn2 {
+        text-align: center;
+        padding-top: 2.25vh;
+        margin-left: 25.5vh;
+        width: 45vh;
+        color: white;
+    }
+
+}
+
